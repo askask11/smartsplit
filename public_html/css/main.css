@@ -1,0 +1,108 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Overlock&display=swap');/*Import Google Font*/
+@import url('arrowButtonCss.css');/*import arrow button*/
+@import url('animatedField.css');/*import animated field*/
+.general-blue-bg
+{
+    background-size: 100%;
+    color: #333333; 
+    background-color: #ccffff; 
+    /*background-image: url("images/dark-wood.jpg");*/ 
+    background-position: center; 
+    /*font-family: Georgia, times, serif;*/ 
+    line-height: 1.4em; 
+    margin: 0px;
+}
+body
+{
+    font-family: 'Overlock', cursive;
+}
+h1, h4
+{
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.hidden
+{
+    visibility: hidden;
+    display: none;
+    animation:fadeEffect 0.3s;
+}
+
+.show
+{
+    visibility: visible;
+    display: block;
+    animation:fadeEffect 0.3s;
+}
+
+
+#mainContainer
+{
+    padding-right: 35px;
+    padding-left: 30px;
+}
+
+.jumbotron
+{
+    background-color: #5eaff7;
+}
+
+.inline
+{
+    display: inline;
+}
+
+.center-text
+{
+    text-align: center;
+}
+
+.centralized
+{
+    margin: auto;
+}
+
+.whiteBg
+{
+    background-color: white;
+}
+
+.blue
+{
+    color: blue;
+}
+
+/*declears an "object" for animation
+For this effect, it should take 1 sec.*/
+@keyframes fadeEffect
+{
+    from
+    {
+        //initial state : opacity: 0;
+        opacity: 0;
+    }to
+    {
+        opacity: 1;//ending state: opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
